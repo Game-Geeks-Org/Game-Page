@@ -120,21 +120,22 @@ function HeroSection() {
           <p className='text-white title'>Games</p>
           <div className='App'>
               <Slider {...settings}>
-                   
-                    <div className='game-img3'> <img src={img3} alt=''/>
-                    <p className=' text-white game_name1'>Minecraft</p>
-                     </div>
+              <div className='game-img1'> 
+                    <img src={img1} alt=''/>
+                    <p className=' text-white game_name'>The Lord of the space</p> 
+                     </div>  
+
+                  
 
                     <div className='game-img2'> 
                     <img src={img2} alt=''/> 
                     <p className='.game_name1 text-white'>CS:GO</p>
                     </div>
-
-                    <div className='game-img1'> 
-                    <img src={img1} alt=''/>
-                    <p className=' text-white game_name'>The Lord of the space</p>
                     
+                    <div className='game-img3'> <img src={img3} alt=''/>
+                    <p className=' text-white game_name1'>Minecraft</p>
                      </div>
+                    
               </Slider>
 
               </div>
