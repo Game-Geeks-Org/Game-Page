@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@700&display=swap');
+
+.Game_bg{
+    background: url('../../Assets/Images/bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh; 
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+
+.hero_img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+
+.hero_content{
+          margin-top: 150px;
+         /* background: linear-gradient(0deg, rgba(255, 215, 0, 0.25)),
+        linear-gradient(0deg, rgba(255, 215, 0, 0.05), rgba(255, 215, 0, 0.05)); */
+        border: 1px solid #FFD70040;
+        font-size: 29px;
+        line-height: 41.09px;
+        font-weight: 500;
+        padding: 25px 30px;
+        border-radius: 25px;
+        width: 570px;
+        height: 132px;
+        font-family: 'Roboto' ;
+}
+
+.game-img1{
+/* background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+linear-gradient(0deg, rgba(255, 215, 0, 0.25), rgba(255, 215, 0, 0.25)); */
+border: 1px solid rgba(255, 215, 0, 0.25);
+text-align: center;
+border-radius: 15px;
+padding: 10;
+width: 145px !important;
+height: 165px;
+box-shadow: 0px 25px 25px 0px #FFD7001A;
+
+
+}
+
+
+.game-img3{
+/* background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+linear-gradient(0deg, rgba(255, 215, 0, 0.25), rgba(255, 215, 0, 0.25)); */
+border: 1px solid rgba(255, 215, 0, 0.25);
+text-align: center;
+border-radius: 15px;
+padding: 10;
+width: 120px;
+height: 140px;
+
+}
+.game-img2{
+/* background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+linear-gradient(0deg, rgba(255, 215, 0, 0.25), rgba(255, 215, 0, 0.25)); */
+border: 1px solid rgba(255, 215, 0, 0.25);
+text-align: center;
+border-radius: 15px;
+padding: 10;
+width: 120px;
+height: 140px;
+
+}
+
+
+
+
+.game-img1, .game-img3, .game-img2, img{
+    margin: auto;
+    padding-top: 10px;
+ 
+}
+
+
+.game-img1{
+    padding-bottom: 55px;
+}
+
+.game_name{
+    font-weight: 700;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.game_name1{
+    padding-top: 7px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 41px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.arrow1 img{
+   position: absolute;
+   left: 105%;
+  top: 40px;
+  font-weight: 800;
+  width: 25px;
+  height: 35px;
+  margin-top: 20px !important;
+  /* margin-left: -100px !important; */
+}
+.arrow2 img{
+   position: absolute;
+   left: 105%;
+  top: 40px;
+  font-weight: 800;
+  width: 13px;
+  height: 20px;
+  margin-top: 20px !important;
+  /* margin-left: -100px !important; */
+}
+
+
+.arrow3 img{
+position: absolute;
+   top: 40px;
+   font-weight: 800;
+   width: 13px;
+   height: 20px;
+   /* margin-left: 110px !important; */
+   margin-top: 20px !important;
+ }
+ .arrow4 img{
+    position: absolute;
+    top: 40px;
+   font-weight: 800;
+   width: 25px;
+   height: 35px;
+   /* margin-left: 100px !important; */
+   margin-top: 20px !important;
+   
+ }
+
+@media only screen and (max-width: 551px){
+.hero_img img{
+  width: 500px;
+    
+}
+
+.Game_bg{
+    height: 100%;
+    padding-bottom: 30px !important;
+}
+
+.hero_content{
+    margin-top: 450px;
+    width: 100%;
+    font-size: 20px;
+
+}
+
+.title{
+    text-align: center !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+}
+
+
+.game-img1, .game-img2, .game-img3{
+width: 100%;
+height: 100%;
+
+}
+
+.arrow3, .arrow2, .arrow1, .arrow4 img{
+    display: none;
+}
+
+}
+
+
+
+@media only screen and (max-width: 1024px){  
+    .hero_img img{
+      width: 700px;
+        
+    }
+    
+    .hero_content{ 
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 20px;
+    
+    }
+
+    .Game_bg{
+        height: 100%;
+    }
+
+    .title{
+        text-align: left;
+        margin-top: 100px;
+    }
+    
+    .game-img1, .game-img2, .game-img3{
+        width: 100%;
+        height: 100%;
+        
+        }
+
+        .game-img1, .game-img3, .game-img2, img{
+            margin: auto;
+            padding: 5px 0;
+        }
+        .arrow3, .arrow2, .arrow1, .arrow4 img{
+            display: none;
+        }
+    }
+
+
+
