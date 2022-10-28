@@ -42,15 +42,29 @@
 }
 
 .nav-item a:hover{
-  color: white;
-  text-decoration: underline yellow;
-  text-underline-offset: 15px ;
- 
+    color: white;
+    border: 4.19px solid #FE53BB;
+    background: #292D31;
+    border-radius: 52.3px;
+    outline: none;
+    padding: 4px 17px;
+
 }
 
+/* border: 4.19px solid;
+
+border-image-source: linear-gradient(115.09deg, #FE53BB 20.63%, #09FBD3 92.38%); */
+
+
+
 .active{
-  text-decoration: underline yellow !important;
-  text-underline-offset: 15px !important ;
+  color: white;
+    border: 4.19px solid;
+    border: 5px solid #FE53BB;
+    background: #292D31;
+    border-radius: 52.3px;
+    outline: none;
+    padding: 4px 17px;
 }
 
 .nav-right .btn{

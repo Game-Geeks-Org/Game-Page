@@ -40,7 +40,7 @@ function SamplePrevArrow(props) {
     <img className={className} onClick={onClick} src={ar1} alt='arrow' />
     </div>
     <div className='arrow3'>
-    <img className={className} onClick={onClick} src={ar1} alt='arrow' />
+    <img  className={className} src={ar1} alt='arrow' />
     </div>
     </>
   );
@@ -50,7 +50,7 @@ function HeroSection() {
   const settings = {
     className: "center",
       centerMode: true,
-      slidesToShow: 3,
+      slidesToShow: 2,
       speed: 2000,
       autoplay: true,
       infinite: true,
@@ -118,22 +118,23 @@ function HeroSection() {
         <Col lg='6' md='6'>
         <div className=''>
           <p className='text-white title'>Games</p>
-          <div className='App justify-content-center align-items-md-center align-items-center '>
+          <div className='App'>
               <Slider {...settings}>
                    
                     <div className='game-img3'> <img src={img3} alt=''/>
                     <p className=' text-white game_name1'>Minecraft</p>
                      </div>
 
+                    <div className='game-img2'> 
+                    <img src={img2} alt=''/> 
+                    <p className='.game_name1 text-white'>CS:GO</p>
+                    </div>
+
                     <div className='game-img1'> 
                     <img src={img1} alt=''/>
                     <p className=' text-white game_name'>The Lord of the space</p>
                     
                      </div>
-                    <div className='game-img2'> 
-                    <img src={img2} alt=''/> 
-                    <p className='.game_name1 text-white'>CS:GO</p>
-                    </div>
               </Slider>
 
               </div>

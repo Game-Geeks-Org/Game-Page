@@ -1,8 +1,13 @@
 import React from 'react'
+import Header from '../Components/Header/Header'
 
 function NftStore() {
   return (
-    <div>NftStore</div>
+    <>
+    <Header />
+       <div>NftStore</div>
+    </>
+ 
   )
 }
 
