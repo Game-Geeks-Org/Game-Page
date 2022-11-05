@@ -29,10 +29,33 @@ const NAV__LINKS = [
 ]
 
 function Header() {
+    // Scroll HANDLER
+    // const [prevScrollPos, setPrevScrollPos] = useState(0);
+    // const [visible, setVisible] = useState(true);
+
+    // const handleScroll = () => {
+    //      const currentScrollPos = window.pageYOffset;
+    //     setVisible((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 70) || currentScrollPos < 10);
+    //     setPrevScrollPos(currentScrollPos);
+    //   };
+    
+    // 
+    //   useEffect(() => {
+    //     window.addEventListener('scroll', handleScroll);
+    
+    //     return () => window.removeEventListener('scroll', handleScroll);
+    
+    //   }, [prevScrollPos, visible, handleScroll]);
+    
+    // Scroll HANDLER END
+
+
+
   const menuRef = useRef(null)
   const toggleMenu = () => menuRef.current.classList.toggle('active__menu')
   return (
     <header className='header'>
+    {/* <header className='header' style={{top: visible ? '0' : '-80px'}}> */}
         <Container>
             <div className="navigation">
                 <div className="logo">

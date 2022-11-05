@@ -72,14 +72,14 @@ function HeroSection() {
         breakpoint: 991,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
         }
       },
       {
         breakpoint: 820,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 1,
         }
       },
       {
@@ -97,7 +97,7 @@ function HeroSection() {
   return (
     <>
     <Header />
-       <section className='Game_bg mb-5 pb-lg-5'>
+       <section className='Game_bg pb-2 pb-lg-5'>
       <div className=' hero_wrapper'>
         <Container>
         <Row>
@@ -118,7 +118,7 @@ function HeroSection() {
         <Col lg='6' md='6'>
         <div className=''>
           <p className='text-white title'>Games</p>
-          <div className='App'>
+          <div className='App pb-2'>
               <Slider {...settings}>
               <div className='game-img1'> 
                     <img src={img1} alt=''/>
@@ -143,8 +143,6 @@ function HeroSection() {
         </Col>
         </Container>
 
-
-      
         </div>
     </section>
   
